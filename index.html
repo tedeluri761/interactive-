@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Simple, traffic-based pricing</h1>
+      <p>
+        Sign-up for our 30-day trial. <br />
+        No credit card required.
+      </p>
+    </header>
+    <main>
+      <h2 id="pageviews">10K PAGEVIEWS</h2>
+      <div class="slider-container">
+        <input type="range" min="1" max="5" value="0" id="slider" />
+      </div>
+      <div class="monthdollar">
+        <p class="dollar" id="dollar">$8.00</p>
+        <p class="month">/ month</p>
+      </div>
+
+      <div class="discount">
+        <p class="monthlyblilling" id="monthlyblilling">Monthly Billing</p>
+        <div class="circle" id="circle">
+          <div class="circle2" id="circle2"></div>
+        </div>
+        <p class="yearlybilling" id="yearlybilling">Yearly Billing</p>
+        <div class="discountconteiner">
+          <p>-25%</p>
+        </div>
+      </div>
+      <hr />
+
+      <section>
+        <div class="correctandP">
+          <img src="assets/images/icons8-check-16.png" alt="" />
+          <p>Unlimited websites</p>
+        </div>
+        <div class="correctandP">
+          <img src="assets/images/icons8-check-16.png" alt="" />
+          <p>100% data ownership</p>
+        </div>
+        <div class="correctandP">
+          <img src="assets/images/icons8-check-16.png" alt="" />
+          <p>Email reports</p>
+        </div>
+      </section>
+
+      <div class="lastly">
+        <p>Start my trial</p>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
